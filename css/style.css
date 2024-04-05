@@ -7,11 +7,16 @@
 :root{
 
   --FF: Helvetica, sans-serif;
-  --BGCOL: rgb(228, 228, 226);
+  --BGCOL: rgb(220, 220, 218);
   --FONTCOL: #333;
   --SHADCOL: rgb(157, 157, 157);
   --HOVBARCOL: #777;
 }
+
+html{
+  background-color: var(--BGCOL);
+}
+
 
 .ponly{
   font-size: 100px ;
@@ -19,10 +24,29 @@
   padding-top: 50px;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+}
+
 .mail{
+  display: inline-block;
   text-align: center;
+  padding-left: auto;
+
+
 /*   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%; */
+}
+
+.mail .mail-icon{
+  padding: 5px;
+  border-radius: 9px;
+}
+
+.mail .mail-icon:hover{
+  background-color: rgb(180, 180, 178);
+
 }

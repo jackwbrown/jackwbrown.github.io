@@ -62,7 +62,7 @@
   .menu-line{
     width: 20px;
     height: 3px;
-    background-color: white;
+    background-color: var(--FONTCOL);
     margin-bottom: 4px;
   }
   
