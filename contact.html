@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-icon">
+            <a class="logo" href="/#"> Jack Brown
+            </a>
+        </div>
+        <ul class="nav-list" id="navi-list">
+            <li class="list-item">
+                <a href="index.html">Home</a>
+            </li>
+
+            <li class="list-item">
+                <a class="active" href="contact.html">Contact</a>
+            </li>
+
+            <li class="list-item">
+                <a href="blog.html">Blog</a>
+            </li>
+        </ul>
+        <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+
+    <div class="ponly">
+      Content Coming Soon
+  </div>
+  <div class="mail">
+      <a href="mailto:jackbrownportfolio@duck.com" ><img src="img/email.png" alt="email" height="75px" width="75px"></a>
+  </div>
+    
+    
+</body>
+
+<script>
+    const toggleButton = document.getElementById('toggle-button')
+    const naviList = document.getElementById('navi-list')
+
+    toggleButton.addEventListener('click', () =>{
+        naviList.classList.toggle('clicked');
+    })
+</script>
+
+</html>
