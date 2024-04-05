@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  :root{
+  
+    --FF: Helvetica, sans-serif;
+    --NAVBARBGCOL: rgb(228, 228, 226);
+    --FONTCOL: #333;
+    --SHADCOL: rgb(157, 157, 157);
+    --HOVBARCOL: #777;
+  }
+  
+  .navbar{
+    background-color: var(--NAVBARBGCOL);
+    color: var(--FONTCOL);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: var(--FF);
+    box-shadow: 0px 0px 4px var(--SHADCOL);
+  }
+  
+  .nav-list{
+    list-style-type: none;
+    padding-right: 20px;
+  }
+  
+  .nav-list .list-item{
+    display: inline-block;
+    padding: 20px 10px;
+    font-weight: 510;
+  }
+  
+  .navbar .logo{
+    font-size: 35px;
+    font-weight: 535;
+  }
+  
+  .navbar a{
+    color: var(--FONTCOL);
+    text-decoration: none;
+    padding-bottom: 5px;
+  }
+  
+  .navbar a:hover:not(.active):not(.logo){
+    border-bottom: 4px solid var(--HOVBARCOL);
+  }
+  
+  a.active
+  {
+    border-bottom: 4px solid var(--FONTCOL);
+  }
+  
+  .menu{
+    display: none;
+  }
+  
+  .menu-line{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 4px;
+  }
+  
+  .navbar .container-icon{
+    padding: 10px;
+    padding-left: 30px;
+  }
+  
+  @media all and (max-width: 480px){
+    .navbar{
+        flex-direction: column;
+        position: relative;
+    }
+  
+    .navbar .container-icon{
+        width: 100%;
+    }
+  
+    .menu{
+        display: block;
+        position: absolute;
+        right: 25px;
+        top: 25px;
+    }
+  
+    .nav-list{
+        list-style-type: none;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        /* padding-top: 10px; */
+        display: none;
+        padding: none;
+    }
+  
+    .nav-list .list-item{
+        display: block;
+        border-top: 1px solid white;
+        padding: 0;
+    }
+  
+    .primary-icon{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+  
+    .clicked{
+        display: block;
+    }
+  
+    a.active{
+        border-bottom: none;
+        color: whitesmoke;
+    }
+  
+    .navbar li:hover:not(.logo):not(:first-child){
+        background-color: #999;
+    }
+    .navbar a{
+        display: block;
+        padding: 20px 10px;
+    }
+  
+    .navbar li:first-child{
+        background-color: #777;
+    }
+  
+    .navbar a:hover:not(.active):not(.logo){
+        border-bottom: none;
+        color: whitesmoke;
+        display: block;
+    }
+  
+    .container-icon{
+        background-color: var(--NAVBARBGCOL);
+    }
+
+    a.logo{
+      padding: 0;
+      display: inline-block;
+    }
+  
+    
+  
+  
+  
+  
+  }
