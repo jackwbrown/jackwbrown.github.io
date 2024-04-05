@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+
+  --FF: Helvetica, sans-serif;
+  --BGCOL: rgb(228, 228, 226);
+  --FONTCOL: #333;
+  --SHADCOL: rgb(157, 157, 157);
+  --HOVBARCOL: #777;
+}
+
+.ponly{
+  font-size: 100px ;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.mail{
+  text-align: center;
+/*   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; */
+}
