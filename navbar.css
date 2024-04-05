@@ -29,7 +29,7 @@
     padding-right: 20px;
   }
   
-  .nav-list .list-item{
+  .nav-list .list-item, .cur-list-item{
     display: inline-block;
     padding: 20px 10px;
     font-weight: 510;
@@ -98,7 +98,7 @@
         padding: none;
     }
   
-    .nav-list .list-item{
+    .nav-list .list-item, .cur-list-item{
         display: block;
         border-top: 1px solid white;
         padding: 0;
@@ -118,7 +118,7 @@
         color: whitesmoke;
     }
   
-    .navbar li:hover:not(.logo):not(:first-child){
+    .navbar li:hover:not(.logo):not(.cur-list-item){
         background-color: #999;
     }
     .navbar a{
@@ -126,7 +126,7 @@
         padding: 20px 10px;
     }
   
-    .navbar li:first-child{
+    .navbar .cur-list-item{
         background-color: #777;
     }
   
