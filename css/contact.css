@@ -48,6 +48,7 @@ p, span{
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   .pageclip-form #message{
@@ -58,6 +59,7 @@ p, span{
     border: 1px solid #ccc;
     box-sizing: border-box;
     resize: none;
+    font-family: 'Courier New', Courier, monospace;
 
 
   }
@@ -68,6 +70,7 @@ p, span{
     display: block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .pageclip-form button[type=submit] {
