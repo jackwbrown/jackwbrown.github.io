@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+
+:root{
+
+    --FF: Helvetica, sans-serif;
+    --BGCOL: rgb(220, 220, 218);
+    --FONTCOL: #333;
+    --SHADCOL: rgb(157, 157, 157);
+    --HOVBARCOL: #777;
+  }
+
+
+p, span{
+    font-family: var(--FF);
+    font-weight: 550;
+}
+
+.welcome{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.introtext{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+
+.contactform{
+    display: flex;
+    justify-content: center;
+}
+
+.pageclip-form{
+    width: 375px;
+}
+
+.pageclip-form input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .pageclip-form #message{
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+
+
+  }
+  .pageclip-form input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .pageclip-form button[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pageclip-form input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .pageclip-form input, .pageclip-form button, .pageclip-form textarea{
+    border-radius: 12px;
+}

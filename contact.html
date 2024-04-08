@@ -6,7 +6,11 @@
     <title>Contact</title>
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/style.css">
+    
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+    <link rel="stylesheet" href="css/contact.css">
+
 </head>
 <body>
     <nav class="navbar">
@@ -19,13 +23,15 @@
                 <a href="index.html">Home</a>
             </li>
 
+            <li class="list-item">
+                <a href="blog.html">Portfolio</a>
+            </li>
+
             <li class="cur-list-item">
                 <a class="active" href="contact.html">Contact</a>
             </li>
 
-            <li class="list-item">
-                <a href="blog.html">Blog</a>
-            </li>
+
         </ul>
         <div class="menu" id="toggle-button">
             <div class="menu-line"></div>
@@ -35,14 +41,45 @@
     </nav>
 
     <div class="ponly">
-      Content Coming Soon
+        <h3 class="welcome"> Hello!</h3>
+
+        <p class="introtext">I would love to hear from you, <br>if you have any questions, requests or feedback please reach out. <br>You can either email me at the icon below or fill out the form.</p>
   </div>
+
+
   <div class="container">
     <div class="mail">
         <a href="mailto:contact@jackbrown.tech" ><img src="img/email.png" alt="email" width="75px" title="Email me!" class="mail-icon"></a>
     </div>
+    </div>
 
-</div>
+    <div class="contactform">
+        <form action="https://send.pageclip.co/Bp7VSgyn3owuFUqSvMq8HQj5wCPocNPH" class="pageclip-form" method="post">
+            <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+            <p>First Name</p>
+            <input type="text" name="First Name" />
+            <p>Surname</p>
+            <input type="text" name="Surname">
+            <p>Email</p>
+            <input type="email" name="email" />
+            <p>Message</p>
+            <textarea name="Message" id="message"></textarea>
+          
+            <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+            <button type="submit" class="pageclip-form__submit">
+              <span>Send</span>
+            </button>
+          </form>
+
+    </div>
+
+    
+
+
+
+
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
     
     
 </body>
