@@ -17,6 +17,13 @@ html{
   background-color: var(--BGCOL);
 }
 
+
+
+.ponly{
+  font-size: 100px ;
+  text-align: center;
+  padding-top: 50px;
+}
 .welcome{
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
@@ -26,12 +33,6 @@ html{
   font-size: 18px;
   font-weight: 500;
   padding-bottom: 25px;
-}
-
-.ponly{
-  font-size: 100px ;
-  text-align: center;
-  padding-top: 50px;
 }
 
 .container{
