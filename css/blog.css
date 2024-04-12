@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  :root{
+  
+    --FF: Helvetica, sans-serif;
+    --NAVBARBGCOL: rgb(228, 228, 226);
+    --FONTCOL: #333;
+    --SHADCOL: rgb(157, 157, 157);
+    --HOVBARCOL: #777;
+  }
+
+  .posts{
+      display: flex;
+      justify-content: center;
+  }
+
+  .portfolio-thumbnail{
+      display: grid;
+      text-align: center;
+      padding: 12px;
+      border: 2px solid #999;
+      border-radius: 18px;
+      width: auto;
+      color: var(--FONTCOL);
+      background-color: whitesmoke;
+  }
+  .portfolio-thumbnail p{
+      font-weight: 400;
+  }
+  
+  .portfolio-thumbnail h4{
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .thumbnail{
+      align-self: center;
+  }
+  .posts a{
+      text-decoration: none;
+      color: var(--FONTCOL);
+  }
